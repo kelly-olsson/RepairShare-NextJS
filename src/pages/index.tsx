@@ -10,7 +10,7 @@ const HomePage = () => {
         <title>RepairShare</title>
         <meta name="landing page" content="RepairShare" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <div className={styles.landing_bkg}>
         <Container fluid className={`${styles.vertical_center} d-flex mx-auto justify-content-center align-items-center text-center flex-grow-1`}>
