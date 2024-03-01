@@ -1,12 +1,19 @@
-/* .headline {
-  font-size: 8em;
-  width: 85vw;
+.headline {
+  font-size: 7.2vw;
 }
 
 .slogan {
-  font-size: 4em;
+  font-size: 3.5vw;
 }
 
 .button {
-  font-size: 3em;
-} */
+  font-size: 2.6vw;
+}
+
+.vertical_center {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
