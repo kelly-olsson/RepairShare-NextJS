@@ -15,8 +15,8 @@ const HomePage = () => {
       <div style={{ backgroundImage: "url('./landingpageimage.jpeg')", height: "100vh", width: "100vw", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed", backgroundSize: "cover" }}>
         <Container fluid className={`${styles.vertical_center} d-flex mx-auto justify-content-center align-items-center text-center flex-grow-1`}>
           <div>
-            <h1 className={`${styles.headline} mb-3`}>WE CAN FIX IT TOGETHER</h1>
-            <h4 className={`${styles.slogan} mb-3`}>REPAIR, SHARE, CARE</h4>
+            <h1 className={`${styles.headline} mb-2`}>WE CAN FIX IT TOGETHER</h1>
+            <h4 className={`${styles.slogan} mb-2`}>REPAIR, SHARE, CARE</h4>
             <Button variant="outline-light" size="lg" className={`${styles.button} m-0`}>Create Account</Button>
             <Button variant="outline-light" size="lg" className={`${styles.button}`}>Log-In</Button>
           </div>
