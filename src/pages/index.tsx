@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import Head from 'next/head';
-import styles from "@/styles/Index.module.css";
+import styles from "@/styles/LandingPage.module.css";
 
-const HomePage = () => {
+export default function LandingPage() {
   return (
     <>
       <Head>
@@ -24,6 +24,4 @@ const HomePage = () => {
       </div>
       </>
   );
-};
-
-export default HomePage;
+}
