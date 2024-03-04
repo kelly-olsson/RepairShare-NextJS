@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { Container } from 'react-bootstrap';
 import 'firebaseui/dist/firebaseui.css';
 import Auth from '../components/Auth';
+import styles from "@/styles/Login.module.css";
 
 export default function LoginPage() {
     return (
@@ -15,6 +16,7 @@ export default function LoginPage() {
       </Head>
       <Container>
           <h1 id="welcome" className="display-4">Welcome to RepairShare!</h1>
+          <div className={`${styles.callout} ${styles.info}`}><h4>New and Returning Users</h4> Use a sign in method to get started!</div>
       </Container>
       <Auth />
     </>

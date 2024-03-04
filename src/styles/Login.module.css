@@ -1,0 +1,28 @@
+.callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+  }
+  
+  .callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .callout p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .callout code {
+    border-radius: 3px;
+  }
+  
+  .info {
+    border-left-color: #5bc0de; /* Info color */
+  }
+  
+  .info h4 {
+    color: #5bc0de; /* Info color */
+  }
