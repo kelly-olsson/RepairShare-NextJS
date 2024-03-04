@@ -23,7 +23,6 @@ const uiConfig = {
 };
 
 const Auth = () => {
-  const ui = 
   useEffect(() => {
     const firebaseui = require('firebaseui');
     const auth = getAuth(firebaseApp);
