@@ -1,20 +1,22 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
 import Head from 'next/head';
-import styles from "@/styles/Login.module.css";
+import { Container } from 'react-bootstrap';
+import 'firebaseui/dist/firebaseui.css';
+import Auth from '../components/Auth';
 
-export default function Login() {
+export default function LoginPage() {
     return (
     <>
       <Head>
-        <title>Login</title>
-        <meta name="login page" content="RepairShare" />
+        <title>Sign Up or Login!</title>
+        <meta name="sign up or login page" content="RepairShare" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="favicon.ico" />
       </Head>
-      <div>
-        <div>Login</div>
-      </div>
+      <Container>
+          <h1 id="welcome" className="display-4">Welcome to RepairShare!</h1>
+      </Container>
+      <Auth />
     </>
   );
 }
